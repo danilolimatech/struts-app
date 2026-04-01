@@ -7,6 +7,7 @@ public class Order {
     private long id;
     private String recipientName;
     private String address;
+    private String description;
     private StatusEnum status;
 
     public long getId() {
@@ -31,6 +32,14 @@ public class Order {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public StatusEnum getStatus() {

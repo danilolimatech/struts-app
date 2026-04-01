@@ -6,8 +6,18 @@
 
     <package name="default" namespace="/" extends="struts-default">
 
-        <action name="hello" class="com.danilo.lima.HelloAction">
-            <result name="success">/hello.jsp</result>
+        <action name="order-list" class="com.danilo.lima.actions.OrderAction" method="orderList">
+            <result name="orderList">/order-list.jsp</result>
+        </action>
+
+        <action name="order-form" class="com.danilo.lima.actions.OrderAction" method="orderForm">
+            <result name="orderForm">/create.jsp</result>
+        </action>
+
+        <action name="order-create" class="com.danilo.lima.actions.OrderAction" method="orderCreate">
+            <result name="orderCreate" type="redirectAction">
+                order-list
+            </result>
         </action>
 
     </package>
