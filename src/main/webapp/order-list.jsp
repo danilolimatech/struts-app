@@ -4,7 +4,7 @@
     <html>
 
     <head>
-        <title>Lista de Encomendas</title>
+        <title>List Orders</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
@@ -13,7 +13,11 @@
 
         <div class="container mt-4">
 
-            <h1 class="mb-4">Orders</h1>
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="mb-0">Order Management - Danilo Lima</h1>
+
+                <img src="https://flagcdn.com/w40/pt.png" alt="Portugal Flag" style="height: 30px;">
+            </div>
 
             <a href="order-form.action" class="btn btn-primary mb-3">Create a new order</a>
 
