@@ -2,6 +2,10 @@
 
 Aplicação web de exemplo construída com Apache Struts 2 e Maven. Fornece páginas JSP para criar e listar encomendas (modelo `Order`), usando actions em `com.danilo.lima.actions`.
 
+<img width="1292" height="462" alt="image" src="https://github.com/user-attachments/assets/8bab0ea3-acb4-41b8-ac26-eaa7af0f14b3" />
+
+<img width="1292" height="462" alt="image" src="https://github.com/user-attachments/assets/964959ba-da68-4215-8d9b-b5d3476b820f" />
+
 ## Sumário rápido
 - Sobre
 - Pré-requisitos
